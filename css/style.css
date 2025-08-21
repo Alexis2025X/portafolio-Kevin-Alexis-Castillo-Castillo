@@ -1,0 +1,81 @@
+body{
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--text-paragraph-color);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: var(--secondary-color);
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    color: var(--text-paragraph-color);
+}
+/* :hover nav a{
+    color: var(--text-title-color);
+    transition: 0.5s;
+} */
+nav a:hover {
+    color: var(--text-title-color);
+    transition: 0.5s;
+}
+    /* transform: rotate(90deg); */
+/*Inicio*/
+h1{
+    color: var(--text-title-color);
+    font-size: 3rem;
+}
+h2{
+    color: var(--text-title-color);
+    font-size: 2rem;
+}
+#sobre-mi a{
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--text-title-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 10px 20px;
+}
+#sobre-mi a:hover{
+    color: var(--text-paragraph-color);
+}
+
+
+#Button-traductor{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    top: 10rem;
+    bottom:10rem;
+}
+#traductor{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+:root {
+    --font-family: "Fira Code", monospace;
+    --primary-color: #000;
+    --secondary-color: #1e1e19;
+    --text-title-color: #2fbb18;
+    --text-paragraph-color: #fff;
+}
+:root {
+    --primary-color: #000;
+    --secondary-color: #1e1e19;
+    --text-title-color: #2fbb18;
+    --text-paragraph-color: #fff;
+}

@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+  "editorCursor.foreground": "#ff0000"
+  },  // Rojo
+  "editor.cursorBlinking": "expand",  // Opciones: "blink", "smooth", "phase", "expand"
+  "editor.cursorStyle": "line",      // Opciones: "line", "block", "underline", "line-thin"
+  "editor.cursorWidth": 2            // Grosor del cursor (en píxeles)
+
+}

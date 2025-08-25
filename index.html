@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>mi portafolio</title>
 </head>
 <body>
-    <!-- <nav>
+    <script src="javaScript/script.js"></script>
+    <nav>
+        <img src="img/logo-ac-removebg-preview.png" alt="">
         <ul>
             <li><a href="#inicio" target="_self">Inicio</a></li>            
-            <li><a href="#sobre-mi" target="_self">Sobre mí</a></li> targer="_self hace que abra enlaces sin recargar una nueva pagina"
+            <li><a href="#sobre-mi" target="_self">Sobre mí</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#intereses/Publicaciones">Intereses/Públicaciones</a></li>
             <li><a href="#contacto">Contacto</a></li>   
         </ul>
-    </nav>-->
-        <nav>
-            <a href="#inicio" target="_self">Inicio</a>            
-            <a href="#sobre-mi" target="_self">Sobre mí</a><!--targer="_self hace que abra enlaces sin recargar una nueva pagina"-->
-            <a href="#proyectos">Proyectos</a></li>
-            <a href="#intereses/Publicaciones">Intereses/Públicaciones</a>
-            <a href="#contacto">Contacto</a>   
+        <div class="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </nav>
-
-    <main>
+    <div class="nav-movile">
+        <ul>
+            <li><a href="#inicio" target="_self">Inicio</a></li>            
+            <li><a href="#sobre-mi" target="_self">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#intereses/Publicaciones">Intereses/Públicaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>   
+        </ul>
+    </div>
+    <main id="inicio">
     <!--Este es el incio-->
     <h1>¡Hola soy Kevin Castillo!</h1>
     <p>Desarrollador</p>
@@ -36,9 +43,14 @@
     </div>
     </main>
     <section id="sobre-mi">
+        <div class="foto">
+            <!--<img src="imagen" alt="Foto profesional de Kevin Castillo">-->
+        </div>
+        <div class="info">
         <h2>Sobre mí</h2>
         <p>¡HelloWorld! Soy un desarrollador de software y aplicaciones webs entusiasmado por asumir nuevos retos y crear nuevas aplicaciones que faciliten la vida de las personas. Tengo experiencia tanto en Front-End como en Back-End haciendo uso de diferentes tecnologías tales como MySQL, PostgreSQL, SQL Server, C#, Python, Java, HTML, CSS. Creo en la actualización constante y en estar a la vanguardia tecnológica. Por eso, siempre busco aprender y mejorar mis habilidades, lo que me permite adaptarme a cualquier proyecto y aportar con conocimientos sólidos.</p>
-        <a href="cv.pdf" download ="CV Kevin Castillo">Descargar CV</a>
+        <a href="pdf/Currículum-Kevin-Castillo.pdf" download ="CV Kevin Castillo">Descargar CV</a>
+        </div>
     </section>
     <section id="proyectos">
         <h2>Proyectos</h2>
@@ -77,11 +89,8 @@
         <a href="#Email"><img src="" alt="logo de Email"></a>
     </section>
     <footer>Esto sera un pie</footer>
-    <div id="Button-traductor">
-        <button id="traductor">Ingles</button>
-    </div>
-        <div id="Button-traductor">
-        <button id="traductor">Ingles</button>
+    <div id="traductor">
+        <button id="button-traductor">Ingles</button>
     </div>
 </body>
 </html>

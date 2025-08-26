@@ -17,14 +17,7 @@ main[id]{
     scroll-margin-top: 6rem;
 }
 nav {
-
-    /* background-color: var(--secondary-color);
-    padding: 30px 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: sticky;
-    top: 0; */
+    z-index: 3;
     display: grid;
     grid-template-columns: 0.2fr 5fr;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -35,7 +28,6 @@ nav {
 }
 
 nav ul{
-
     margin: 0px;
     padding: 30px 30px;
     display: flex;
@@ -51,14 +43,12 @@ nav a{
     text-decoration: none;
     color: var(--text-paragraph-color);
 }
-/* :hover nav a{
-    color: var(--text-title-color);
-    transition: 0.5s;
-} */
+
 nav a:hover {
     color: var(--text-title-color);
     transition: 0.5s;
 }
+
 nav img{
     padding: 0.5rem;
     align-self: center;
@@ -88,6 +78,7 @@ nav .nav-toggle{
     
 }
 .nav-movile{
+    z-index: 3;
     display: none;
     position: fixed;
     top: 5.5rem;
@@ -111,7 +102,6 @@ nav .nav-toggle{
     gap: 0.5rem;
     height: auto;
     padding: 0.7rem;
-    
 }
 .nav-movile a:hover {
     color: var(--text-title-color);
@@ -139,14 +129,61 @@ main #inicio{
 }
     /* transform: rotate(90deg); */
 /*Inicio*/
-h1{
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/laptop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    gap: 0.5rem;
+}
+#inicio::before{
+  content: ''; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -6rem;
+  /* background-color: rgba(0, 0, 0, 0.5); 
+    filter: blur(5px) grayscale(80%); */
+   background-color: rgba(0, 0, 0, 0.4);
+    filter: blur(5px) grayscale(80%);
+
+  z-index: 1;
+
+}
+
+
+
+.text{
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 2;
+    justify-items: center;
+    text-align: center;
+    width: 20%;
+    margin-top: -1rem;
+}
+.text h1{
     color: var(--text-title-color);
     font-size: 3rem;
 }
+.text p{
+    color: var(--text-paragraph-color);
+    font-size: 1.2rem;
+}
+
 h2{
     color: var(--text-title-color);
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
+
+
+
+
 #sobre-mi{
     display: flex;
     grid-template-columns: 1fr;
@@ -229,6 +266,7 @@ footer{
     text-align: center;
 }
 body > #traductor{
+    z-index: 3;
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -237,7 +275,7 @@ body > #traductor{
 }
 
 #button-traductor{
-    
+    font-size: 1rem;
     font-weight: bold;
     background-color: var(--text-title-color);
     color: var(--primary-color);
@@ -245,12 +283,92 @@ body > #traductor{
     border: 1px solid var(--text-title-color);
     border-radius: 15px;
     cursor: pointer;
+
     }
 #button-traductor:hover{
     background-color: var(--primary-color);
     color: var(--text-paragraph-color);
     transition: 0.5s;
 }
+
+@media (min-width: 400px) {
+    .text{
+        margin-top: -1rem;
+        width: 20%;
+    }
+    .text h1{
+        font-size: 3rem;
+    }
+    .text p{
+        font-size: 1.2rem;
+    }
+    body > #traductor{
+        bottom: 5rem;
+    }
+    #button-traductor{
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+}
+@media (min-width: 785px) {
+    .text{
+        margin-top: -2rem;
+        width: 30%;
+    }
+    .text h1{
+        font-size: 4rem;
+    }
+    .text p{
+        font-size: 1.5rem;
+    }
+    body > #traductor{
+        bottom: 7rem;
+    }
+    #button-traductor{
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+}
+@media (min-width: 980px) {
+    .text{
+        margin-top: -7rem;
+        width: 40%;
+    }
+    .text h1{
+        font-size: 5rem;
+    }
+    .text p{
+        font-size: 2rem;
+    }
+    body > #traductor{
+        bottom: 5rem;
+    }
+    #button-traductor{
+        font-size: 1.3rem;
+        padding: 15px 25px;
+    }
+}
+@media (min-width: 1200px) {
+    .text{
+        margin-top: -10rem;
+        width: 50%;
+    }
+    .text h1{
+        font-size: 6rem;
+    }
+    .text p{
+        font-size: 2.5rem;
+    }
+    body > #traductor{
+        bottom: 8rem;
+    }
+    #button-traductor{
+        font-size: 1.5rem;
+        padding: 20px 30px;
+    }
+}
+
+
 
 :root {
     --font-family: "Fira Code", monospace;

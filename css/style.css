@@ -148,6 +148,7 @@ main #inicio{
   left: 0;
   right: 0;
   bottom: -6rem;
+  min-width: 360px;
   /* background-color: rgba(0, 0, 0, 0.5); 
     filter: blur(5px) grayscale(80%); */
    background-color: rgba(0, 0, 0, 0.4);
@@ -164,8 +165,8 @@ main #inicio{
     z-index: 2;
     justify-items: center;
     text-align: center;
-    width: 20%;
-    margin-top: -1rem;
+    width: 70%;
+    margin-top: -10rem;
 }
 .text h1{
     color: var(--text-title-color);
@@ -173,7 +174,7 @@ main #inicio{
 }
 .text p{
     color: var(--text-paragraph-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 h2{
@@ -271,11 +272,11 @@ body > #traductor{
     display: flex;
     justify-content: flex-end;
     width: 98%;
-    bottom: 10rem;
+    bottom: 5rem;
 }
 
 #button-traductor{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     background-color: var(--text-title-color);
     color: var(--primary-color);
@@ -285,16 +286,20 @@ body > #traductor{
     cursor: pointer;
 
     }
+#button-traductor i{
+    margin-right: 8px;
+}
 #button-traductor:hover{
     background-color: var(--primary-color);
     color: var(--text-paragraph-color);
     transition: 0.5s;
 }
 
+/* Media Queries ya definidos para tamaños de pantallas */
 @media (min-width: 400px) {
     .text{
-        margin-top: -1rem;
-        width: 20%;
+        margin-top: -8rem;
+        width: 70%;
     }
     .text h1{
         font-size: 3rem;
@@ -306,20 +311,20 @@ body > #traductor{
         bottom: 5rem;
     }
     #button-traductor{
-        font-size: 0.7rem;
-        padding: 5px 10px;
+        font-size: 1rem;
+        padding: 9px 16px;
     }
 }
 @media (min-width: 785px) {
     .text{
-        margin-top: -2rem;
-        width: 30%;
+        margin-top: -8rem;
+        width: 60%;
     }
     .text h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .text p{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     body > #traductor{
         bottom: 7rem;
@@ -332,41 +337,43 @@ body > #traductor{
 @media (min-width: 980px) {
     .text{
         margin-top: -7rem;
-        width: 40%;
+        width: 70%;
     }
     .text h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .text p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     body > #traductor{
         bottom: 5rem;
     }
     #button-traductor{
-        font-size: 1.3rem;
-        padding: 15px 25px;
+        font-size: 1rem;
+        padding: 12px 20px;
     }
 }
 @media (min-width: 1200px) {
     .text{
         margin-top: -10rem;
-        width: 50%;
+        width: 40%;
     }
     .text h1{
-        font-size: 6rem;
+        font-size: 4.98rem;
     }
     .text p{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     body > #traductor{
         bottom: 8rem;
     }
     #button-traductor{
+        border-radius: 22px;
         font-size: 1.5rem;
-        padding: 20px 30px;
+        padding: 18px 29px;
     }
 }
+
 
 
 

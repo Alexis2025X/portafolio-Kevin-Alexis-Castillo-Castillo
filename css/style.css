@@ -95,7 +95,6 @@ nav .nav-toggle{
 .nav-movile a{
     color: var(--text-paragraph-color);
     text-decoration: none;
-
 }
 .nav-movile.open{
     font-size: 1.2rem;
@@ -142,20 +141,18 @@ main #inicio{
     gap: 0.5rem;
 }
 #inicio::before{
-  content: ''; 
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: -6rem;
-  min-width: 360px;
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -6rem;
+    min-width: 360px;
   /* background-color: rgba(0, 0, 0, 0.5); 
     filter: blur(5px) grayscale(80%); */
-   background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     filter: blur(5px) grayscale(80%);
-
-  z-index: 1;
-
+    z-index: 1;
 }
 
 
@@ -190,19 +187,24 @@ h2{
     grid-template-columns: 1fr;
     flex-direction: column;
     background-color: var(--secondary-color);
-    padding: 20px;
     text-align: center;
     border-radius: 20px;
+    padding: 20px;
     margin: 1rem;
+    margin-top: 2rem;
 }
 
 #sobre-mi .foto{
+    display: flex;
+    justify-content: center;
     align-self: center;
-    background-color: var(--primary-color);
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    /* background-color: var(--primary-color); */
     margin: 1rem;
+}
+#sobre-mi .foto > img{
+    width: 98%;
+    height: 94%;
+    border-radius: 20px;
 }
 #sobre-mi .info{
     justify-items: left;
@@ -235,30 +237,32 @@ h2{
     transition: 0.5s ease;
     /* scale: 1; */
 }
-@media (min-width: 980px) {
-    #sobre-mi{
-        flex-direction: row;
-        text-align: left;
-    }
-    #sobre-mi .foto{
-    width: 400px;
-    height: 400px;
-    }
-    #sobre-mi .info{
-        padding: 2rem;
-    }
-    #sobre-mi h2{
-        justify-self:start;
-        font-size: 3rem;
-    }
-    #sobre-mi p{
-        font-size: 1.5rem;
-    }
-    #sobre-mi a{
-        padding: 15px 25px;
-        font-size: 1.3rem;
-    }
+
+
+#proyectos{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: 2rem;
 }
+
+
+#intereses-Publicaciones{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+#contacto{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
 
 footer{
     background-color: var(--secondary-color);
@@ -334,6 +338,7 @@ body > #traductor{
         padding: 8px 15px;
     }
 }
+
 @media (min-width: 980px) {
     .text{
         margin-top: -7rem;
@@ -345,6 +350,30 @@ body > #traductor{
     .text p{
         font-size: 1.5rem;
     }
+
+    #sobre-mi{
+        flex-direction: row;
+        text-align: left;
+    }
+    #sobre-mi .foto{
+         width: 400px;
+        height: 400px;
+    }
+    #sobre-mi .info{
+        padding: 2rem;
+    }
+    #sobre-mi h2{
+        justify-self:start;
+        font-size: 3rem;
+    }
+    #sobre-mi p{
+        font-size: 1.5rem;
+    }
+    #sobre-mi a{
+        padding: 15px 25px;
+        font-size: 1.3rem;
+    }
+
     body > #traductor{
         bottom: 5rem;
     }
@@ -353,27 +382,93 @@ body > #traductor{
         padding: 12px 20px;
     }
 }
+/* Este es el de mi pantalla */
 @media (min-width: 1200px) {
+    nav ul{
+        padding: 15px 15px;
+    }
+    nav img{
+        height: 60px;
+        width: 60px;
+    }
+    nav a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: var(--text-paragraph-color);
+    }
+
     .text{
         margin-top: -10rem;
         width: 40%;
     }
     .text h1{
-        font-size: 4.98rem;
+        font-size: 3.50rem;
+    }
+    .text p{
+        font-size: 1.5rem;
+    }
+
+    #sobre-mi .foto{
+        width: 380px;
+        height: 380px;
+    }
+    #sobre-mi .info{
+        padding: 1.2rem;
+    }
+    #sobre-mi h2{
+        justify-self: start;
+        font-size: 2.5rem;
+    }
+    #sobre-mi p{
+        font-size: 1.3rem;
+    }
+    #sobre-mi a{
+        padding: 15px 23px;
+        font-size: 1rem;
+    }
+
+    body > #traductor{
+        bottom: 6rem;
+    }
+    #button-traductor{
+        border-radius: 20px;
+        font-size: 1.3rem;
+        padding: 16px 25px;
+    }
+}
+
+@media (min-width: 1600px) {
+    nav ul{
+        padding: 25px 25px;
+    }
+    nav img{
+        height: 80px;
+        width: 80px;
+    }
+    nav a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: var(--text-paragraph-color);
+    }
+    .text{
+        margin-top: -12rem;
+        width: 40%;
+    }
+    .text h1{
+        font-size: 4.2rem;
     }
     .text p{
         font-size: 2rem;
     }
     body > #traductor{
-        bottom: 8rem;
+        bottom: 10rem;
     }
     #button-traductor{
-        border-radius: 22px;
-        font-size: 1.5rem;
-        padding: 18px 29px;
+        border-radius: 25px;
+        font-size: 1.8rem;
+        padding: 20px 35px;
     }
 }
-
 
 
 

@@ -1,0 +1,16 @@
+{
+    "nav-desktop": {
+        "inicio": "Home",
+        "sobre-mi": "About Me",
+        "proyectos": "Projects",
+        "intereses-Publicaciones": "Public Interests",
+        "contacto": "Contact"
+    },
+    "nav-movile": {
+        "inicio": "Home",
+        "sobre-mi": "About Me",
+        "proyectos": "Projects",
+        "intereses-Publicaciones": "Public Interests",
+        "contacto": "Contact"
+    }
+}

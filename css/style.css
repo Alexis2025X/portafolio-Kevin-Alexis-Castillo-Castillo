@@ -12,11 +12,22 @@ html{
 }
 section[id]{
     scroll-margin-top: 6rem;
+    /* border: solid 4px red; */
 }
+/* .observer{
+    pointer-events: none;
+    z-index: 1000;
+    border: solid 4px blue;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+} */
 main[id]{
     scroll-margin-top: 6rem;
 }
-nav {
+.nav-desktop {
     z-index: 3;
     display: grid;
     grid-template-columns: 0.2fr 5fr;
@@ -27,7 +38,7 @@ nav {
     top: 0;
 }
 
-nav ul{
+.nav-desktop ul{
     margin: 0px;
     padding: 30px 30px;
     display: flex;
@@ -38,18 +49,31 @@ nav ul{
     text-decoration: none;
     list-style: none;
 }
-nav a{
+.nav-desktop a{
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--text-paragraph-color);
 }
 
-nav a:hover {
+.nav-desktop a:hover {
     color: var(--text-title-color);
     transition: 0.5s;
 }
+.nav-desktop a.selected {
+    color: var(--text-title-color);
+}
+.nav-movile a.selected {
+    color: var(--text-title-color);
+}
+/* .nav-desktop a::after {
+    content: 'a';
+    color: var(--text-title-color);
+    position: relative;
+    top: 100%;
+} */
 
-nav img{
+
+.nav-desktop img{
     padding: 0.5rem;
     align-self: center;
     justify-self: center;
@@ -57,7 +81,7 @@ nav img{
     height: 70px;
     width: 70px;
 }
-nav .nav-toggle{
+.nav-desktop .nav-toggle{
     display: none;
     color: var(--primary-color);
     font-size: 3rem;
@@ -107,10 +131,10 @@ nav .nav-toggle{
     transition: 0.5s;
 }
 @media (max-width: 785px) {
-    nav ul{
+    .nav-desktop ul{
         display: none;
     }
-    nav .nav-toggle{
+    .nav-desktop .nav-toggle{
         display: block;
     }
     .nav-movile{
@@ -231,7 +255,7 @@ h2{
 }
 
 #sobre-mi a:hover{
-    border: var(--text-title-color) 2px solid;
+    border: var(--text-title-color) 1px solid;
     background-color: var(--primary-color);
     color: var(--text-paragraph-color);
     transition: 0.5s ease;
@@ -485,14 +509,14 @@ body > #traductor{
 }
 /* Este es el de mi pantalla */
 @media (min-width: 1200px) {
-    nav ul{
+    .nav-desktop ul{
         padding: 15px 15px;
     }
-    nav img{
+    .nav-desktop img{
         height: 60px;
         width: 60px;
     }
-    nav a{
+    .nav-desktop a{
         font-size: 1.3rem;
         text-decoration: none;
         color: var(--text-paragraph-color);
@@ -548,14 +572,14 @@ body > #traductor{
 }
 
 @media (min-width: 1600px) {
-    nav ul{
+    .nav-desktop ul{
         padding: 25px 25px;
     }
-    nav img{
+    .nav-desktop img{
         height: 80px;
         width: 80px;
     }
-    nav a{
+    .nav-desktop a{
         font-size: 1.5rem;
         text-decoration: none;
         color: var(--text-paragraph-color);

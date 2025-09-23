@@ -15,11 +15,11 @@
     <nav class="nav-desktop">
         <img src="img/logo-ac-removebg-preview.png" alt="">
         <ul>
-            <li><a href="#inicio" target="_self" class="selected">Inicio</a></li>            
-            <li><a href="#sobre-mi" target="_self" >Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#intereses-Publicaciones">Intereses/Públicaciones</a></li>
-            <li><a href="#contacto">Contacto</a></li>   
+            <li><a href="#inicio" target="_self" class="selected" data-section="nav-desktop" data-value="inicio">Inicio</a></li>            
+            <li><a href="#sobre-mi" target="_self"  data-section="nav-desktop" data-value="sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos"  data-section="nav-desktop" data-value="proyectos">Proyectos</a></li>
+            <li><a href="#intereses-Publicaciones"  data-section="nav-desktop" data-value="intereses-Publicaciones">Intereses/Públicaciones</a></li>
+            <li><a href="#contacto"  data-section="nav-desktop" data-value="contacto">Contacto</a></li>   
         </ul>
         <div class="nav-toggle">
             <i class="fa-solid fa-bars"></i>
@@ -27,19 +27,19 @@
     </nav>
     <div class="nav-movile">
         <ul>
-            <li><a href="#inicio" target="_self" class="selected">Inicio</a></li>            
-            <li><a href="#sobre-mi" target="_self">Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#intereses-Publicaciones">Intereses/Públicaciones</a></li>
-            <li><a href="#contacto">Contacto</a></li>   
+            <li><a href="#inicio" target="_self" class="selected" data-section="nav-movile" data-value="inicio">Inicio</a></li>            
+            <li><a href="#sobre-mi" target="_self" data-section="nav-movile" data-value="sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos" data-section="nav-movile" data-value="proyectos">Proyectos</a></li>
+            <li><a href="#intereses-Publicaciones" data-section="nav-movile" data-value="intereses-Publicaciones">Intereses/Públicaciones</a></li>
+            <li><a href="#contacto" data-section="nav-movile" data-value="contacto">Contacto</a></li>   
         </ul>
     </div> 
     <main id="inicio">
     <!--Este es el incio-->
     <div class="text">
-            <h1>¡Hola soy Kevin Castillo!</h1>
-            <p>Soy un desarrollador</p>
-            <p>¡Si puedes soñarlo puedes programarlo!</p>
+            <h1 data-section="text" data-value="h1">¡Hola soy Kevin Castillo!</h1>
+            <p data-section="text" data-value="p1">Soy un desarrollador</p>
+            <p data-section="text" data-value="p2">¡Si puedes soñarlo puedes programarlo!</p>
     </div>
 
     <!-- <div>*Foto profesional*
@@ -142,7 +142,7 @@
     </section>
     <footer>© 2025 Kevin Castillo.</footer>
     <div id="traductor">
-        <button id="button-traductor"><i class="fa-solid fa-globe"></i>Ingles</button>
+        <button id="button-traductor" data-lenguaje="en"><i class="fa-solid fa-globe"></i>Ingles</button>
     </div>
 </body>
 </html>

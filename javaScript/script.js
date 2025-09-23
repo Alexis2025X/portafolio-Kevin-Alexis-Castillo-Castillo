@@ -88,6 +88,45 @@ enlaces.forEach(enlace => {
     }
 })
 
+//Botón traductor
+const button_traductor = document.getElementById('button-traductor');
+button_traductor.addEventListener('click', () => {
+    if(button_traductor.innerHTML === `<i class="fa-solid fa-globe"></i>${button_traductor.innerText = "Español"}`) {
+        //button_traductor.innerText = 'Español';
+        button_traductor.innerHTML = `<i class="fa-solid fa-globe"></i>${button_traductor.innerText = "Ingles"}`;
+        button_traductor.setAttribute('data-lenguaje', 'es');
+            //alert('Función en desarrollo');
+    } else {
+        button_traductor.innerHTML = `<i class="fa-solid fa-globe"></i>${button_traductor.innerText = "Español"}`;
+        button_traductor.setAttribute('data-lenguaje', 'en');
+        //button_traductor.innerText = 'Ingles';
+            //alert('Función en terminada');
+    }
+});
+
+
+const traductor = document.querySelectorAll("[data-lenguaje]");
+const textToChange = document.querySelectorAll("[data-section]");
+traductor.forEach((button) => {
+    button.addEventListener('click', () => {
+        //const lang = button.getAttribute('data-lenguaje');
+        //console.log(button.getAttribute('data-lenguaje'));
+        fetch(`json/${button.getAttribute('data-lenguaje')}.json`)
+            .then(res => res.json()) 
+            .then(data => {
+                textToChange.forEach(element => {
+                    const section = element.getAttribute('data-section');
+                    const value = element.getAttribute('data-value');
+                    element.innerHTML = data[section][value];
+                })
+            })
+    })
+})
+
+
+
+
+
 
 
 });

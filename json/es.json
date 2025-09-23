@@ -1,0 +1,22 @@
+{
+    "nav-desktop": {
+        "inicio": "Inicio",
+        "sobre-mi": "Sobre mí",
+        "proyectos": "Proyectos",
+        "intereses-Publicaciones": "Intereses/Públicaciones",
+        "contacto": "Contacto"
+    },
+    "nav-movile": {
+        "inicio": "Inicio",
+        "sobre-mi": "Sobre mí",
+        "proyectos": "Proyectos",
+        "intereses-Publicaciones": "Intereses/Públicaciones",
+        "contacto": "Contacto"
+    },
+    "text": {
+        "h1": "¡Hola soy Kevin Castillo!",
+        "p1": "Soy un desarrollador",
+        "p2": "¡Si puedes soñarlo puedes programarlo!"
+    }
+    
+}

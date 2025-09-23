@@ -3,14 +3,19 @@
         "inicio": "Home",
         "sobre-mi": "About Me",
         "proyectos": "Projects",
-        "intereses-Publicaciones": "Public Interests",
+        "intereses-Publicaciones": "Public/Interests",
         "contacto": "Contact"
     },
     "nav-movile": {
         "inicio": "Home",
         "sobre-mi": "About Me",
         "proyectos": "Projects",
-        "intereses-Publicaciones": "Public Interests",
+        "intereses-Publicaciones": "Public/Interests",
         "contacto": "Contact"
+    },
+    "text": {
+        "h1": "Hi, I'm Kevin Castillo!",
+        "p1": "I'm a developer",
+        "p2": "If you can dream it, you can code it!"
     }
 }

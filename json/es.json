@@ -17,6 +17,47 @@
         "h1": "¡Hola soy Kevin Castillo!",
         "p1": "Soy un desarrollador",
         "p2": "¡Si puedes soñarlo puedes programarlo!"
+    },
+    "info": {
+        "h2-sobre-mi": "Sobre mí",
+        "p-sobre-mi": "¡HelloWorld! Soy un desarrollador de software y aplicaciones web entusiasmado por asumir nuevos retos y crear aplicaciones que faciliten la vida de las personas. Tengo experiencia tanto en Front-End como en Back-End haciendo uso de diferentes tecnologías tales como MySQL, PostgreSQL, SQL Server, C#, Python, Java, HTML y CSS. Creo en la actualización constante y en estar a la vanguardia tecnológica. Por eso, siempre busco aprender y mejorar mis habilidades, lo que me permite adaptarme a cualquier proyecto y aportar con conocimientos sólidos.",
+        "a-sobre-mi": "Descargar CV"
+    },
+    "proyectos":{
+        "h2-proyecto": "Proyectos"
+    },
+    "proyectos-card-1":{
+        "p-proyectos-1": "Software personalizado desarrollado para administrar de manera eficiente el inventario y las operaciones diarias de la Farmacia Divino Niño.",
+        "p-rol-1": "Rol: Product Owner y Desarrollador Front-End/Back-End."
+    },
+    "proyectos-card-2":{
+        "p-proyectos-2": "Página web informativa diseñada para promocionar los productos de la Farmacia Divino Niño, mejorando su presencia en línea.",
+        "p-rol-2": "Rol: Desarrollador Front-End/Back-End."
+    },
+    "proyectos-card-3":{
+        "p-proyectos-3": "Aplicación web que permite la publicación y difusión de alertas sobre personas desaparecidas o en situación de necesidad.",
+        "p-rol-3": "Rol: Desarrollador Front-End/Back-End."
+    },
+    "proyectos-card-4":{
+        "p-proyectos-4": "Aplicación móvil que te permite gestionar la información de tus mascotas, agendar citas veterinarias y localizar clínicas cercanas.",
+        "p-rol-4": "Rol: Desarrollador Front-End/Back-End."
+    },
+    "logo":{
+        "h2-logo":"Mi logo",
+        "p-logo":"\"Si puedes soñarlo puedes programarlo\""
+    },
+    "interses-publicaciones":{
+        "h2-interses-publicaciones":"Intereses y Publicaciones"
+    },
+    "contacto":{
+        "h2-contacto":"Contáctame",
+        "nombre-contacto":"Nombre",
+        "email-contacto":"Correo electrónico",
+        "mensaje-contacto":"Mensaje",
+        "enviar-contacto":"Enviar"
+    },
+    "redes-sociales":{
+        "h2-redes-sociales":"Redes Sociales"
     }
     
 }

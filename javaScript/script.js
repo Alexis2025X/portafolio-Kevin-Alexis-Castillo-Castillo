@@ -71,6 +71,7 @@ const button_traductor = document.getElementById('button-traductor');
 button_traductor.addEventListener('click', () => {
     if(button_traductor.innerHTML === `<i class="fa-solid fa-globe"></i>${button_traductor.innerText = "Español"}`) {
         //button_traductor.innerText = 'Español';
+
         button_traductor.innerHTML = `<i class="fa-solid fa-globe"></i>${button_traductor.innerText = "Ingles"}`;
         button_traductor.setAttribute('data-lenguaje', 'es');
             //alert('Función en desarrollo');
@@ -96,11 +97,14 @@ traductor.forEach((button) => {
                     const section = element.getAttribute('data-section');
                     const value = element.getAttribute('data-value');
                     element.innerHTML = data[section][value];
+                    element.placeholder = data[section][value]
+                    
+                    // console.log(element.innerHTML = data[section][value])
+                    //console.log(element.ariaPlaceholder = data[section][value])
                 })
             })
     })
 })
-
 
 
 

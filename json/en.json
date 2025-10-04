@@ -17,5 +17,46 @@
         "h1": "Hi, I'm Kevin Castillo!",
         "p1": "I'm a developer",
         "p2": "If you can dream it, you can code it!"
+    },
+    "info": {
+        "h2-sobre-mi": "About me",
+        "p-sobre-mi": "Hello World! I'm a software and web application developer excited to take on new challenges and create applications that make people's lives easier. I have experience in both front-end and back-end applications, using different technologies such as MySQL, PostgreSQL, SQL Server, C#, Python, Java, HTML, and CSS. I believe in constant updating and staying at the forefront of technology. That's why I'm always looking to learn and improve my skills, which allows me to adapt to any project and contribute with solid knowledge.",
+        "a-sobre-mi": "Download CV"
+    },
+    "proyectos":{
+        "h2-proyecto": "Projects"
+    },
+    "proyectos-card-1":{
+        "p-proyectos-1": "Custom software developed to efficiently manage the inventory and daily operations of Farmacia Divino Niño.",
+        "p-rol-1": "Role: Product Owner and Front-End/Back-End Developer."
+    },
+    "proyectos-card-2":{
+        "p-proyectos-2": "Informational website designed to Farmacia Divino Niño Pharmacy products, improving its online presence.",
+        "p-rol-2": "Role: Front-End/Back-End Developer."
+    },
+    "proyectos-card-3":{
+        "p-proyectos-3": "Web application that allows the publication and dissemination of alerts about missing persons or those in need.",
+        "p-rol-3": "Role: Front-End/Back-End Developer."
+    },
+    "proyectos-card-4":{
+        "p-proyectos-4": "Mobile app that lets you manage your pets' information, schedule veterinary appointments, and locate nearby clinics.",
+        "p-rol-4": "Role: Front-End/Back-End Developer."
+    },
+    "logo":{
+        "h2-logo":"My logo",
+        "p-logo":"\"If you can dream it, you can program it\""
+    },
+    "interses-publicaciones":{
+        "h2-interses-publicaciones":"Interests and Publications"
+    },
+    "contacto":{
+        "h2-contacto":"Contact me",
+        "nombre-contacto":"Name",
+        "email-contacto":"Email",
+        "mensaje-contacto":"Message",
+        "enviar-contacto":"Send"
+    },
+    "redes-sociales":{
+        "h2-redes-sociales":"Social Networks"
     }
 }

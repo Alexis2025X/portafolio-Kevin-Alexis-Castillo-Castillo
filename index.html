@@ -13,7 +13,7 @@
     <!-- <div class="observer"></div> -->
     <script src="javaScript/script.js"></script>
     <nav class="nav-desktop">
-        <img src="img/logo-ac-removebg-preview.png" alt="">
+        <img src="img/logo-ac.png" alt="">
         <ul>
             <li><a href="#inicio" target="_self" class="selected" data-section="nav-desktop" data-value="inicio">Inicio</a></li>            
             <li><a href="#sobre-mi" target="_self"  data-section="nav-desktop" data-value="sobre-mi">Sobre mí</a></li>
@@ -53,22 +53,13 @@
             <img src="img/foto-fondo-negro - copia.png" alt="Foto profesional de Kevin Castillo">
         </div>
         <div class="info">
-        <h2>Sobre mí</h2>
-        <p>¡HelloWorld! Soy un desarrollador de software y aplicaciones web entusiasmado por asumir nuevos retos y crear aplicaciones que faciliten la vida de las personas. Tengo experiencia tanto en Front-End como en Back-End haciendo uso de diferentes tecnologías tales como MySQL, PostgreSQL, SQL Server, C#, Python, Java, HTML y CSS. Creo en la actualización constante y en estar a la vanguardia tecnológica. Por eso, siempre busco aprender y mejorar mis habilidades, lo que me permite adaptarme a cualquier proyecto y aportar con conocimientos sólidos.</p>
-        <a href="pdf/Currículum-Kevin-Castillo.pdf" download ="CV Kevin Castillo">Descargar CV</a>
+        <h2 data-section="info" data-value="h2-sobre-mi">Sobre mí</h2>
+        <p data-section="info" data-value="p-sobre-mi">¡HelloWorld! Soy un desarrollador de software y aplicaciones web entusiasmado por asumir nuevos retos y crear aplicaciones que faciliten la vida de las personas. Tengo experiencia tanto en Front-End como en Back-End haciendo uso de diferentes tecnologías tales como MySQL, PostgreSQL, SQL Server, C#, Python, Java, HTML y CSS. Creo en la actualización constante y en estar a la vanguardia tecnológica. Por eso, siempre busco aprender y mejorar mis habilidades, lo que me permite adaptarme a cualquier proyecto y aportar con conocimientos sólidos.</p>
+        <a href="pdf/Currículum-Kevin-Castillo.pdf" download ="CV Kevin Castillo" data-section="info" data-value="a-sobre-mi">Descargar CV</a>
         </div>
     </section>
     <section id="proyectos">
-        <!-- <h2>Proyectos</h2>
-        <p>En esta sección puedes incluir una lista de tus proyectos más destacados.</p>
-        <ul>
-            <li>*Proyecto con descripciones detalladas, tecnología usada, imágen y tu rol*</li>
-            <li>Farmacia divino niño (Software)</li>
-            <li>Farmacia divino niño (Web informativa)</li>
-            <li>Red de esperanza (Aplicación web)</li>
-            <li>PetCare (App móvil)</li>
-        </ul> -->
-        <h2 class="titulo_proyectos">Proyectos</h2>
+        <h2 class="titulo_proyectos" data-section="proyectos" data-value="h2-proyecto">Proyectos</h2>
         <div class="container_cards">
         <div class="card">
 
@@ -76,79 +67,84 @@
 
             <div class="content_text">
                 <!-- <p class="rol">Develop</p> -->
-                <h3>Farmacia Divino Niño (Software)</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis, iure ducimus dolores eos nihil quae consectetur</p>
+                <h3 translate="no">Farmacia Divino Niño</h3>
+                <p data-section="proyectos-card-1" data-value="p-proyectos-1">Software personalizado desarrollado para administrar de manera eficiente el inventario y las operaciones diarias de la Farmacia Divino Niño.</p>
 
           </div>
-            <p class="rol">Rol: Product Owner y Desarrollador Front-End/Back-End.</p>
+            <p class="rol" data-section="proyectos-card-1" data-value="p-rol-1">Rol: Product Owner y Desarrollador Front-End/Back-End.</p>
             <div class="tecnologias">
                 <p class="tecno">MySQL</p>
                 <p class="tecno">C#</p>
                 <p class="tecno">WinForms</p>
             </div>
             <!-- <aside class="link-github"> -->
-                <a class="link-github" href=""><i class="fa-brands fa-github"></i>Github</a>
+                <a class="link-github" href="https://github.com/marlon-cruz/proyecto/tree/master"><i class="fa-brands fa-github"></i>Github</a>
             <!-- </aside> -->
-      </div>
-      <div class="card">
+        </div>
+        <div class="card">
           <!-- <div class="content_img"> -->
             <img src="img/Divino_Niño.png" alt="imagen">
           <!-- </div> -->
           <div class="content_text">
-            <h3>Farmacia Divino Niño (Web informativa)</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis, iure ducimus dolores eos nihil quae consectetur</p>
+            <h3 translate="no">Farmacia Divino Niño</h3>
+            <p data-section="proyectos-card-2" data-value="p-proyectos-2">Página web informativa diseñada para promocionar los productos de la Farmacia Divino Niño, mejorando su presencia en línea.</p>
             </div>
-            <p class="rol">Rol: Desarrollador Front-End/Back-End</p>
+            <p class="rol" data-section="proyectos-card-2" data-value="p-rol-2">Rol: Desarrollador Front-End/Back-End</p>
                   <div class="tecnologias">
-                <p class="tecno">MySQL</p>
-                <p class="tecno">C#</p>
-                <p class="tecno">WinForms</p>
+                <p class="tecno">HTML </p>
+                <p class="tecno">CSS</p>
             </div>
             <!-- <aside class="link-github"> -->
-                <a class="link-github" href=""><i class="fa-brands fa-github"></i>Github</a>
+                <a class="link-github" href="https://github.com/Alexis2025X/Web-Farmacia-Divino-Ni-o"><i class="fa-brands fa-github"></i>Github</a>
             <!-- </aside> -->
         </div>
-      <div class="card">
+        <div class="card">
           
             <img src="img/Red_Esperanza_1.png" alt="imagen">
           
           <div class="content_text">
-            <h3>Red de Esperanza (Aplicación web)</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis, iure ducimus dolores eos nihil quae consectetur</p>
+            <h3 translate="no">Red de Esperanza</h3>
+            <p data-section="proyectos-card-3" data-value="p-proyectos-3">Aplicación web que permite la publicación y difusión de alertas sobre personas desaparecidas o en situación de necesidad.</p>
         </div>
-        <p class="rol">Rol: Desarrollador Front-End/Back-End</p>
+        <p class="rol" data-section="proyectos-card-3" data-value="p-rol-3">Rol: Desarrollador Front-End/Back-End</p>
           <div class="tecnologias">
-                <p class="tecno">MySQL</p>
+                <p class="tecno">SQL Server</p>
                 <p class="tecno">C#</p>
-                <p class="tecno">WinForms</p>
+                <p class="tecno">ASP.NET</p>
             </div>
             <!-- <aside class="link-github"> -->
-                <a class="link-github" href=""><i class="fa-brands fa-github"></i>Github</a>
+                <a class="link-github" href="https://github.com/Alexis2025X/Red_Esperanza_form/tree/WEB_2"><i class="fa-brands fa-github"></i>Github</a>
             <!-- </aside> -->
-    </div>
-    <div class="card">
+        </div>
+        <div class="card">
           
             <img src="img/PetCare.png" alt="imagen">
           
           <div class="content_text">
-            <h3>PetCare (App móvil)</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis, iure ducimus dolores eos nihil quae consectetur</p>
+            <h3 translate="no">PetCare</h3>
+            <p data-section="proyectos-card-4" data-value="p-proyectos-4">Aplicación móvil que te permite gestionar la información de tus mascotas, agendar citas veterinarias y localizar clínicas cercanas.</p>
             
         </div>
-        <p class="rol">Rol: Desarrollador Front-End/Back-End</p>
+        <p class="rol" data-section="proyectos-card-4" data-value="p-rol-4">Rol: Desarrollador Front-End/Back-End</p>
           <div class="tecnologias">
-                <p class="tecno">MySQL</p>
-                <p class="tecno">C#</p>
-                <p class="tecno">WinForms</p>
+                <p class="tecno">SQLite</p>
+                <p class="tecno">Java</p>
+                <p class="tecno">XML</p>
             </div>
             <!-- <aside class="link-github"> -->
-                <a class="link-github" href=""><i class="fa-brands fa-github"></i>Github</a>
+                <a class="link-github" href="https://github.com/Alexis2025X/PetCare_2.0"><i class="fa-brands fa-github"></i>Github</a>
             <!-- </aside> -->
     </div> 
     </div>
     </section>
+    <section id="logo">
+        <h2 data-section="logo" data-value="h2-logo">Mi logo</h2>
+        <img src="/img/logo-ac.png" alt="">
+        <p data-section="logo" data-value="p-logo">"Si puedes soñarlo puedes programarlo"</p>
+
+    </section>
     <section id="intereses-Publicaciones">
-        <h2>Intereses y Publicaciones</h2>
+        <h2 data-section="interses-publicaciones" data-value="h2-interses-publicaciones">Intereses y Publicaciones</h2>
         <p>En esta sección puedes incluir tus intereses y publicaciones.</p>
         <ul>
             <li>Interés 1</li>
@@ -159,16 +155,19 @@
     </section>
     <section id="contacto">
     <section id="contactame">
-    <h2>Contáctame</h2>
+    <h2 data-section="contacto" data-value="h2-contacto">Contáctame</h2>
     <form class="formulario">
-        <input type="text" placeholder="Nombre" required name="name" minlength="3">
-        <input type="email" placeholder="Correo electrónico" required name="email" minlength="5">
-        <input type ="Mensaje" placeholder="Mensaje" required name="message">
-        <button id="enviar-mensaje" type="submit">Enviar</button>
+        <input type="text" placeholder="Nombre" required name="name" minlength="3" data-section="contacto" data-value="nombre-contacto">
+
+        <input type="email" placeholder="Correo electrónico" required name="email" minlength="5" data-section="contacto" data-value="email-contacto">
+
+        <input id= "mensaje" type ="Mensaje" placeholder="Mensaje" required name="message" data-section="contacto" data-value="mensaje-contacto">
+        
+        <button id="enviar-mensaje" type="submit" data-section="contacto" data-value="enviar-contacto">Enviar</button>
     </form>
     </section>
     <section id="redes-sociales">
-        <h2>Redes Sociales</h2>
+        <h2 data-section="redes-sociales" data-value="h2-redes-sociales">Redes Sociales</h2>
         <div class="links">
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKBzzrVXQZqWzXPrpNMKCGDkdgCztsqknMLqjhjHVzDXgvPfXQvhvWNrLjhgRHCWwcJgxwL"><i class="fa-solid fa-envelope"></i>alexiscastillo2024@gmail.com</a>   
             <a href="https://www.linkedin.com/in/kevin-alexis-castillo-castillo-5b63b434a/"><i class="fa-brands fa-square-linkedin"></i>Linkedin</a>

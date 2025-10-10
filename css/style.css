@@ -315,7 +315,8 @@ h2{
     flex-shrink: 0;
     /* border-radius: 20px 20px 0px 0px; */
     width: 90%;
-    height: 40vh;
+    /* height: 40vh; */
+    height: 250px;
 }
 #proyectos .container_cards .card .content_text{
     display: flex;

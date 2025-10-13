@@ -299,6 +299,7 @@ h2{
     align-items: center;
     border-radius: 20px;
     flex-shrink: 0; /* Evita que las tarjetas se reduzcan */
+    /* width: 28rem; */
     width: 18rem;
     height: auto;
     /* margin-left: 1rem;
@@ -610,6 +611,9 @@ footer{
         gap: 1rem;
         padding: 1rem;
     }
+    #proyectos .container_cards .card{
+        width: 18rem;
+    }
 
     /* body > #traductor{
         bottom: 5rem;
@@ -635,6 +639,9 @@ footer{
     #proyectos .container_cards{
         gap: 1rem;
         padding: 1rem;
+    }
+    #proyectos .container_cards .card{
+        width: 18rem;
     }
     #contacto{
         grid-template-columns: 1fr 1fr;
@@ -691,6 +698,9 @@ footer{
     #proyectos .container_cards{
         gap: 1rem;
         padding: 2rem;
+    }
+    #proyectos .container_cards .card{
+        width: 18rem;
     }
     /* ----- Card hover ------ */
     #proyectos .container_cards .card:hover{
@@ -763,10 +773,16 @@ footer{
         font-size: 2.5rem;
     }
     #proyectos .container_cards{
-        gap: 3rem;
+        gap: 2rem;
         padding: 1rem;
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;
+    }
+    #proyectos .container_cards .card{
+        width: 28rem;
+    }
+    .link-github{
+        margin-bottom: 2rem;
     }
 
 

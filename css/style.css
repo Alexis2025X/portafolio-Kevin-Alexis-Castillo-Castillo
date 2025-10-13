@@ -83,7 +83,7 @@ main[id]{
 }
 .nav-desktop .nav-toggle{
     display: none;
-    color: var(--primary-color);
+    color: var(--text-title-color);
     font-size: 3rem;
     justify-self: end;
     align-self: center;

@@ -46,8 +46,15 @@
         "h2-logo":"Mi logo",
         "p-logo":"\"Si puedes soñarlo puedes programarlo\""
     },
-    "interses-publicaciones":{
-        "h2-interses-publicaciones":"Intereses y Publicaciones"
+    "intereses-publicaciones":{
+        "h2-intereses":"Intereses",
+        "programacion":"La programación",
+        "desarrolloWeb":"El diseño y desarrollo web",
+        "ciberseguridad":"La ciberseguridad",
+        "softwareLibre":"El software libre",
+        "h2-publicaciones":"Públicaciones",
+        "titulo":"Reconocimiento",
+        "publicacion":"Publicación"
     },
     "contacto":{
         "h2-contacto":"Contáctame",

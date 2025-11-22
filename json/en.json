@@ -3,14 +3,12 @@
         "inicio": "Home",
         "sobre-mi": "About Me",
         "proyectos": "Projects",
-        "intereses-Publicaciones": "Public/Interests",
         "contacto": "Contact"
     },
     "nav-movile": {
         "inicio": "Home",
         "sobre-mi": "About Me",
         "proyectos": "Projects",
-        "intereses-Publicaciones": "Public/Interests",
         "contacto": "Contact"
     },
     "text": {
@@ -45,16 +43,6 @@
     "logo":{
         "h2-logo":"My logo",
         "p-logo":"\"If you can dream it, you can program it\""
-    },
-    "intereses-publicaciones": {
-        "h2-intereses": "Interests",
-        "programacion": "Programming",
-        "desarrolloWeb": "Web design and development",
-        "ciberseguridad": "Cybersecurity",
-        "softwareLibre": "Free software",
-        "h2-publicaciones": "Publications",
-        "titulo": "Recognition",
-        "publicacion": "Publication"
     },
     "contacto":{
         "h2-contacto":"Contact me",

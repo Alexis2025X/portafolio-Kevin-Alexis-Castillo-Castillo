@@ -460,10 +460,9 @@ h2{
     text-align: center;
 }
 /* -------------- Interes y publicaciones ------------------- */
-#intereses-Publicaciones{
+/* #intereses-Publicaciones{
     display: flex;
     flex-direction: column;
-    /* height: 30rem; */
     background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 20px;
@@ -480,8 +479,6 @@ h2{
 
 #intereses-Publicaciones .container_cards_intereses{
     display: flex;
-    /* justify-content: center; */
-    /* background-color: #2fbb18; */
     overflow-x: scroll;
     gap: 1rem;
     padding: 0.5rem;
@@ -538,7 +535,6 @@ h2{
 }
 #intereses-Publicaciones .container_cards_publicaciones{
     display: flex;
-    /* background-color: #2fbb18; */
     overflow-x: scroll;
     gap: 1rem;
     padding: 0.5rem;
@@ -610,7 +606,7 @@ h2{
 
 .container_cards_publicaciones::-webkit-scrollbar-track {
   background: var(--secondary-color);
-}
+} */
 
 /* -------------------Contacto -------------------- */
 #contacto{
@@ -875,11 +871,11 @@ footer{
     }
 
         /* ----- Card hover intereses ------ */
-    #intereses-Publicaciones .container_cards_intereses .card_intereses:hover{
+    /* #intereses-Publicaciones .container_cards_intereses .card_intereses:hover{
         transform: scale(1.05);
         transition: 0.5s ease;
         box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.8);
-    }
+    } */
     /* ----- Card hover publicaciones ------ */
         #intereses-Publicaciones .container_cards_publicaciones .card_publicaciones:hover{
         transform: scale(1.05);

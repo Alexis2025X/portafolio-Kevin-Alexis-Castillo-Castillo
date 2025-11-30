@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }).then(response => {
             if (response.ok) {
                 //alert('¡Mensaje enviado con éxito!');
-                
                 agregarToast({ tipo: 'exito', titulo: 'Éxito!', descripcion: 'El mensaje fue enviado exitosamente.', autoCierre: true });
                 form.reset(); // Reinicia el formulario
             } else {

@@ -53,6 +53,19 @@
     },
     "redes-sociales":{
         "h2-redes-sociales":"Redes Sociales"
+    },
+    "resenias":{
+        "persona1":"Fue un estudiante ejemplar, disciplinado y comprometido. Se destacó por su proactividad, su dominio de herramientas tecnológicas, programación y análisis de datos, y por su actitud colaborativa y ética de trabajo. Demostró gran capacidad de aprendizaje continuo y adaptación a nuevos entornos.",
+        "persona2":"Kevin Alexis Castillo Castillo es una persona de excelente conducta, excelente en su estudio, honrado, intachable, responsable en todos sus actos y dispuesta a compartir todos sus conocimientos a una sociedad en progreso.",
+        "persona3":"Como estudiante, se destacó por su dedicación, respeto, trabajo en equipo y alto sentido de responsabilidad. </br>Posee habilidades sociales y una mente estratégica que la hacen apta para cualquier tarea. Su excelente actitud, carisma y constante interés por superarse son cualidades que aseguran un gran éxito en lo que se proponga.",
+        "persona4":"Fue mi estudiante en 2023. Se caracteriza por su amabilidad y respeto, creando un ambiente colaborativo donde participa activamente en equipos, aportando ideas y apoyando a sus compañeros. Muestra un gran interés por la investigación, abordando los temas con disciplina, iniciativa y creatividad. </br>Su perseverancia y constancia ante los retos, junto a su actitud de superación, lo convierten en un estudiante ejemplar con un perfil integral que combina valores humanos y competencias académicas.",
+        "persona5":"Kevin Alexis Castillo Castillo se ha destacado como un estudiante ejemplar y de conducta intachable, logrando el primer lugar en el bachillerato y en su graduación por su desempeño excepcional. </br>Es una persona disciplinada, responsable y constante, cualidades que también se reflejan en sus habilidades deportivas y su talento para el dibujo. Su dedicación, creatividad y capacidad de superación respaldan una trayectoria admirable y un futuro académico y profesional muy prometedor.",
+        "persona6":"Kevin se distingue por su respeto, gran responsabilidad y compromiso con los estudios. Posee capacidad de análisis y pensamiento crítico, así como una actitud colaborativa que facilita el trabajo en equipo. </br>Su carácter servicial y confiable lo hace un apoyo constante para sus compañeros, contribuyendo positivamente al entorno académico. Su integridad y dedicación lo perfilan como un joven con gran potencial para crecer profesional y personalmente."
+    },
+    "reconocimientos":{
+        "h2-reconocimientos":"Mis reconocimientos",
+        "reconocimiento1":"Reconocimiento por mejor CUM AECOMPU",
+        "reconocimiento2":"Reconocimiento por mejor CUM"
     }
     
 }

@@ -21,37 +21,50 @@
         "p-sobre-mi": "Hello World! I'm a software and web application developer excited to take on new challenges and create applications that make people's lives easier. I have experience in both front-end and back-end applications, using different technologies such as MySQL, PostgreSQL, SQL Server, C#, Python, Java, HTML, and CSS. I believe in constant updating and staying at the forefront of technology. That's why I'm always looking to learn and improve my skills, which allows me to adapt to any project and contribute with solid knowledge.",
         "a-sobre-mi": "Download CV"
     },
-    "proyectos":{
+    "proyectos": {
         "h2-proyecto": "Projects"
     },
-    "proyectos-card-1":{
+    "proyectos-card-1": {
         "p-proyectos-1": "Custom software developed to efficiently manage the inventory and daily operations of Farmacia Divino Niño.",
         "p-rol-1": "Role: Product Owner and Front-End/Back-End Developer."
     },
-    "proyectos-card-2":{
+    "proyectos-card-2": {
         "p-proyectos-2": "Informational website designed to Farmacia Divino Niño Pharmacy products, improving its online presence.",
         "p-rol-2": "Role: Front-End/Back-End Developer."
     },
-    "proyectos-card-3":{
+    "proyectos-card-3": {
         "p-proyectos-3": "Web application that allows the publication and dissemination of alerts about missing persons or those in need.",
         "p-rol-3": "Role: Front-End/Back-End Developer."
     },
-    "proyectos-card-4":{
+    "proyectos-card-4": {
         "p-proyectos-4": "Mobile app that lets you manage your pets' information, schedule veterinary appointments, and locate nearby clinics.",
         "p-rol-4": "Role: Front-End/Back-End Developer."
     },
-    "logo":{
-        "h2-logo":"My logo",
-        "p-logo":"\"If you can dream it, you can program it\""
+    "logo": {
+        "h2-logo": "My logo",
+        "p-logo": "\"If you can dream it, you can program it\""
     },
-    "contacto":{
-        "h2-contacto":"Contact me",
-        "nombre-contacto":"Name",
-        "email-contacto":"Email",
-        "mensaje-contacto":"Message",
-        "enviar-contacto":"Send"
+    "contacto": {
+        "h2-contacto": "Contact me",
+        "nombre-contacto": "Name",
+        "email-contacto": "Email",
+        "mensaje-contacto": "Message",
+        "enviar-contacto": "Send"
     },
-    "redes-sociales":{
-        "h2-redes-sociales":"Social Networks"
+    "redes-sociales": {
+        "h2-redes-sociales": "Social Networks"
+    },
+    "resenias": {
+        "persona1": "He was an exemplary, disciplined, and committed student. He stood out for his proactivity, his mastery of technological tools, programming, and data analysis, and for his collaborative attitude and work ethic. He demonstrated a great capacity for continuous learning and adaptation to new environments.",
+        "persona2": "Kevin Alexis Castillo Castillo is a person of excellent character, excelling in his studies, honest, irreproachable, responsible in all his actions, and willing to share all his knowledge with a progressing society.",
+        "persona3": "As a student, he stood out for his dedication, respect, teamwork, and high sense of responsibility. He possesses social skills and a strategic mind that make him suitable for any task. His excellent attitude, charisma, and constant interest in self-improvement are qualities that ensure great success in whatever he sets out to do.",
+        "persona4": "He was my student in 2023. He is characterized by his kindness and respect, creating a collaborative environment where he actively participates in teams, contributing ideas and supporting his classmates. He shows a great interest in research, Approaching topics with discipline, initiative, and creativity. </br>His perseverance and consistency in the face of challenges, along with his drive to excel, make him an exemplary student with a well-rounded profile that combines human values ​​and academic skills.",
+        "persona5": "Kevin Alexis Castillo Castillo has distinguished himself as an exemplary student with impeccable conduct, achieving first place in high school and at his graduation for his exceptional performance. </br>He is a disciplined, responsible, and consistent person, qualities that are also reflected in his athletic abilities and his talent for drawing. His dedication, creativity, and capacity for self-improvement support an admirable trajectory and a very promising academic and professional future.",
+        "persona6": "Kevin is distinguished by his respect, great responsibility, and commitment to his studies. He possesses analytical and critical thinking skills, as well as a collaborative attitude that facilitates teamwork. </br>His helpful and reliable nature makes him a constant support for his classmates, contributing positively to the academic environment. His integrity and dedication position him as a young man with great potential for professional growth. and personally."
+    },
+    "reconocimientos": {
+        "h2-reconocimientos": "My awards",
+        "reconocimiento1": "Recognition for best Coefficient of Units of Merit (AECOMPU)",
+        "reconocimiento2": "Recognition for best Coefficient of Units of Merit"
     }
 }

@@ -1,0 +1,5 @@
+```text
+User-agent: *
+Allow: /
+
+Sitemap: https://alexis2025x.github.io/portafolio-Kevin-Alexis-Castillo-Castillo/sitemap.xml

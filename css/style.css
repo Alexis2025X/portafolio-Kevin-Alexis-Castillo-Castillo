@@ -168,7 +168,8 @@ main #inicio {
 }
 
 #inicio {
-    background-image: url('../img/laptop.jpg');
+    background-image: url('../img/laptop.webp');
+    /* background-image: url('../img/laptop.jpg'); */
 }
 
 #inicio::before {

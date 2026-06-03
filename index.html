@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Kevin Alexis Castillo Castillo, desarrollador de software y aplicaciones web. Descubre mis proyectos, habilidades y experiencia en el mundo de la tecnología.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleToast.css">
     <!-- Para los iconos -->
@@ -12,7 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Alexis Castillo</title>
-    <link rel="icon" type="image/png" href="img/logo_ac.png">
+    <link rel="icon" type="image/png" href="img/logo_ac.webp" loading="lazy">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
     <script src="javaScript/script.js"></script>
     <script src="javaScript/emails.js"></script>
     <nav class="nav-desktop">
-        <img src="img/logo_ac.png" alt="">
+        <img src="img/logo_ac.webp" alt="Logo" loading="lazy">
         <ul>
             <li><a href="#inicio" target="_self" class="selected" data-section="nav-desktop"
                     data-value="inicio">Inicio</a></li>
@@ -37,12 +38,12 @@
     <div class="nav-movile">
         <ul>
             <li><a href="#inicio" target="_self" class="selected" data-section="nav-movile"
-                    data-value="inicio">Inicio</a></li>
-            <li><a href="#sobre-mi" target="_self" data-section="nav-movile" data-value="sobre-mi">Sobre mí</a></li>
-            <li><a href="#proyectos" data-section="nav-movile" data-value="proyectos">Proyectos</a></li>
+                    data-value="inicio" aria-label="Ver inicio del portafolio">Inicio</a></li>
+            <li><a href="#sobre-mi" target="_self" data-section="nav-movile" data-value="sobre-mi" aria-label="Ver sección sobre mí">Sobre mí</a></li>
+            <li><a href="#proyectos" data-section="nav-movile" data-value="proyectos" aria-label="Ver sección proyectos">Proyectos</a></li>
             <!-- <li><a href="#intereses-Publicaciones" data-section="nav-movile"
                     data-value="intereses-Publicaciones">Intereses/Públicaciones</a></li> -->
-            <li><a href="#contacto" data-section="nav-movile" data-value="contacto">Contacto</a></li>
+            <li><a href="#contacto" data-section="nav-movile" data-value="contacto" aria-label="Ver sección contacto">Contacto</a></li>
         </ul>
     </div>
     <main id="inicio">
@@ -72,7 +73,7 @@
                 constante y en estar a la vanguardia tecnológica. Por eso, siempre busco aprender y mejorar mis
                 habilidades, lo que me permite adaptarme a cualquier proyecto y aportar con conocimientos sólidos.</p>
             <a href="pdf/Currículum-Kevin-Castillo.pdf" download="CV Kevin Castillo" data-section="info"
-                data-value="a-sobre-mi">Descargar CV</a>
+                data-value="a-sobre-mi" aria-label="Descargar currículum">Descargar CV</a>
         </div>
     </section>
     <section id="proyectos">
@@ -80,7 +81,7 @@
         <div class="container_cards">
             <div class="card">
                 <div class="content_img">
-                    <img class="divinoSoftwareimg" src="img/Divino_Niño_s.png" alt="imagen">
+                    <img class="divinoSoftwareimg" src="img/Divino_Niño_s.webp" alt="imagen" loading="lazy">
                 </div>
                 <div class="content_text">
                     <!-- <p class="rol">Develop</p> -->
@@ -104,7 +105,7 @@
             </div>
             <div class="card">
                 <div class="content_img">
-                    <img class="divinoWebimg" src="img/web_farmacia.png" alt="imagen">
+                    <img class="divinoWebimg" src="img/web_farmacia.webp" alt="imagen" loading="lazy">
                 </div>
                 <div class="content_text">
                     <h3 translate="no">Farmacia Divino Niño</h3>
@@ -124,7 +125,7 @@
             </div>
             <div class="card">
                 <div class="content_img">
-                    <img class="redEsperanzaimg" src="img/Red_Esperanza_1.png" alt="imagen">
+                    <img class="redEsperanzaimg" src="img/Red_Esperanza_1.webp" alt="imagen" loading="lazy">
                 </div>
                 <div class="content_text">
                     <h3 translate="no">Red de Esperanza</h3>
@@ -143,13 +144,13 @@
                     <p class="tecno">ASP.NET</p>
                 </div>
                 <!-- <aside class="link-github"> -->
-                <a class="link-github" href="https://github.com/Alexis2025X/Red_Esperanza_form/tree/WEB_2"><i
+                <a class="link-github" href="https://github.com/Alexis2025X/Red_Esperanza_form/tree/WEB_2" aria-label="Ver proyecto en Github"><i
                         class="fa-brands fa-github"></i>Github</a>
                 <!-- </aside> -->
             </div>
             <div class="card">
                 <div class="content_img">
-                    <img class="petcareimg" src="img/PetCare2.png" alt="imagen">
+                    <img class="petcareimg" src="img/PetCare2.webp" alt="imagen" loading="lazy">
                 </div>
                 <div class="content_text">
                     <h3 translate="no">PetCare</h3>
@@ -167,7 +168,7 @@
                     <p class="tecno">XML</p>
                 </div>
                 <!-- <aside class="link-github"> -->
-                <a class="link-github" href="https://github.com/Alexis2025X/PetCare_2.0"><i
+                <a class="link-github" href="https://github.com/Alexis2025X/PetCare_2.0" aria-label="Ver proyecto en Github"><i
                         class="fa-brands fa-github"></i>Github</a>
                 <!-- </aside> -->
             </div>
@@ -175,7 +176,7 @@
     </section>
     <section id="logo">
         <h2 data-section="logo" data-value="h2-logo">Mi logo</h2>
-        <img src="img/logo_ac.png" alt="Logo">
+        <img src="img/logo_ac.webp" alt="Logo" loading="lazy">
         <p data-section="logo" data-value="p-logo">"Si puedes soñarlo puedes programarlo"</p>
 
     </section>
@@ -184,8 +185,7 @@
         <div class="container_cards_resenias">
             <div class="card_resenias">
                 <div class="content_img_resenias">
-                    <img src="img/osmaro.jpeg"
-                        alt="imagen">
+                    <img src="img/osmaro.webp" loading="lazy" alt="imagen" width="420" height="420">
                 </div>
                 <div class="content_text">
                     <h3>Marvin Parada</h3>
@@ -194,7 +194,7 @@
             </div>
             <div class="card_resenias">
                 <div class="content_img_resenias">
-                    <img src="img/torres.jpeg" alt="imagen">
+                    <img src="img/torres.webp" loading="lazy" alt="imagen" width="432" height="432">
                 </div>
                 <div class="content_text">
                     <h3>Oscar Torres</h3>
@@ -203,7 +203,7 @@
             </div>
             <div class="card_resenias">
                 <div class="content_img_resenias">
-                    <img src="img/cordero.jpeg" alt="imagen">
+                    <img src="img/cordero.webp" loading="lazy" alt="imagen" width="432" height="432">
                 </div>
                 <div class="content_text">
                     <h3>Herbert Cordero</h3>
@@ -212,7 +212,7 @@
             </div>
             <div class="card_resenias">
                 <div class="content_img_resenias">
-                    <img src="img/victor.jpeg" alt="imagen">
+                    <img src="img/victor.webp" loading="lazy" alt="imagen" width="1164" height="1280">
                 </div>
                 <div class="content_text">
                     <h3>Victor Alfaro</h3>
@@ -221,7 +221,7 @@
             </div>
             <div class="card_resenias">
                 <div class="content_img_resenias">
-                    <img src="img/Esperanza.jpeg" alt="imagen">
+                    <img src="img/Esperanza.webp" loading="lazy" alt="imagen" width="899" height="923">
                 </div>
                 <div class="content_text">
                     <h3>Esperanza Saravia</h3>
@@ -230,7 +230,7 @@
             </div>
             <div class="card_resenias">
                 <div class="content_img_resenias">
-                    <img src="img/Eva.jpeg" alt="imagen">
+                    <img src="img/Eva.webp" loading="lazy" alt="imagen" width="899" height="1600">
                 </div>
                 <div class="content_text">
                     <h3>Eva Melara</h3>
@@ -247,8 +247,7 @@
         <div class="container_cards_reconocimientos">
             <div class="card_reconocimientos">
                 <div id="imagenZoom1">
-                    <img src="img/reconocimiento_cum.png"
-                        alt="imagen">
+                    <img src="img/reconocimiento_cum.webp" loading="lazy" alt="imagen">
                 </div>
                 <div class="content_text">
                     <h3 data-section="reconocimientos" data-value="reconocimiento1">Reconocimiento por mejor CUM AECOMPU</h3>
@@ -256,7 +255,7 @@
             </div>
             <div class="card_reconocimientos">
                 <div id="imagenZoom2">
-                    <img src="img/reconocimiento_cum_AE.png" alt="imagen">
+                    <img src="img/reconocimiento_cum_AE.webp" loading="lazy" alt="imagen">
                 </div>
                 <div class="content_text_reconocimientos">
                     <h3 data-section="reconocimientos" data-value="reconocimiento2">Reconocimiento por mejor CUM</h3>
@@ -289,11 +288,11 @@
             <h2 data-section="redes-sociales" data-value="h2-redes-sociales">Redes Sociales</h2>
             <div class="links">
                 <a
-                    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKBzzrVXQZqWzXPrpNMKCGDkdgCztsqknMLqjhjHVzDXgvPfXQvhvWNrLjhgRHCWwcJgxwL"><i
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKBzzrVXQZqWzXPrpNMKCGDkdgCztsqknMLqjhjHVzDXgvPfXQvhvWNrLjhgRHCWwcJgxwL" aria-label="Enviar correo electrónico"><i
                         class="fa-solid fa-envelope"></i>alexiscastillo2024@gmail.com</a>
-                <a href="https://www.linkedin.com/in/kevin-alexis-castillo-castillo-5b63b434a/"><i
+                <a href="https://www.linkedin.com/in/kevin-alexis-castillo-castillo-5b63b434a/" aria-label="Ver perfil en LinkedIn"><i
                         class="fa-brands fa-square-linkedin"></i>Linkedin</a>
-                <a href="https://github.com/Alexis2025X"><i class="fa-brands fa-github"></i>Github</a>
+                <a href="https://github.com/Alexis2025X" aria-label="Ver perfil en Github"><i class="fa-brands fa-github"></i>Github</a>
             </div>
         </section>
     </section>

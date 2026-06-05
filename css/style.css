@@ -86,8 +86,8 @@ main[id] {
     align-self: center;
     justify-self: center;
     align-self: center;
-    height: 65px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 
 .nav-desktop .nav-toggle {
@@ -109,6 +109,14 @@ main[id] {
     text-align: center;
     gap: 0.5rem;
 
+}
+.nav-movile img {
+    padding: 0.5rem;
+    align-self: center;
+    justify-self: center;
+    align-self: center;
+    height: 65px;
+    width: 70px;
 }
 
 .nav-movile {
